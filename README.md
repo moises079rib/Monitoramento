@@ -1,15 +1,104 @@
-4.4 Documentação (README.md)
+Monitoramento de Saúde – Aplicativo Android
+1. Descrição do Problema
 
-1. **Descrição do Problema:** Apresenta o contexto que motivou o desenvolvimento do aplicativo, destacando a necessidade de monitoramento de indicadores básicos de saúde de forma simples e acessível.
+O aumento de doenças crônicas, como diabetes, obesidade e problemas cardiovasculares, exige que as pessoas monitorem regularmente seus indicadores de saúde. Entretanto, muitos indivíduos — especialmente idosos — não possuem ferramentas simples para registrar e acompanhar essas informações. Isso dificulta a identificação de padrões e o acompanhamento da evolução da saúde ao longo do tempo.
 
-2. **Justificativa:** Explica por que o problema é relevante socialmente, relacionando a proposta ao ODS 3 — Saúde e Bem-Estar, e ao impacto positivo do acompanhamento preventivo de saúde.
+Este aplicativo foi criado para fornecer uma solução acessível e prática para registrar dados essenciais de saúde diretamente no dispositivo móvel.
 
-3. **Público-Alvo:** Define o perfil dos usuários para os quais o aplicativo foi desenvolvido, incluindo idosos e qualquer pessoa que deseje registrar seus dados de saúde.
+2. Justificativa
 
-4. **Objetivos do App:** Descreve claramente o que o aplicativo pretende alcançar, como facilitar o registro de batimentos cardíacos, peso e glicemia, além de disponibilizar o histórico desses dados.
+O monitoramento contínuo de indicadores como batimentos cardíacos, peso e glicemia é fundamental para a prevenção e o controle de doenças crônicas. Ao simplificar o processo de registro e visualização dessas informações, o aplicativo contribui para o autocuidado e para a promoção da saúde.
 
-5. **Tipo de Aplicação:** Informa que o app é um **aplicativo nativo Android**, desenvolvido em Kotlin, utilizando Jetpack Compose e Room.
+Esse projeto está alinhado ao ODS 3 – Saúde e Bem-Estar, especialmente à Meta 3.4, que trata da prevenção e redução de doenças não transmissíveis.
 
-6. **Instruções de Instalação e Uso:** Fornece um passo a passo completo explicando como clonar o repositório, abrir o projeto no Android Studio e executar o aplicativo em um dispositivo físico ou emulador.
+3. Público-Alvo
 
-7. **Requisitos do Sistema:** Lista os requisitos mínimos para funcionamento do aplicativo, como Android 7.0 (API 24) ou superior, além das dependências essenciais utilizadas no projeto (Room, Navigation Compose, etc.).
+O aplicativo foi desenvolvido para:
+
+Idosos que precisam registrar seus dados de saúde regularmente.
+
+Pessoas com condições como diabetes ou hipertensão.
+
+Adultos e jovens interessados em monitoramento preventivo.
+
+Usuários que querem acompanhar sua evolução física e metabólica ao longo do tempo.
+
+4. Objetivos do Aplicativo
+Objetivo Geral
+
+Desenvolver um aplicativo Android simples e funcional para registrar e armazenar indicadores essenciais de saúde.
+
+Objetivos Específicos
+
+Registrar batimentos cardíacos, peso corporal e glicemia.
+
+Permitir cadastro e login do usuário.
+
+Exibir um histórico completo de registros.
+
+Utilizar banco de dados local com Room para armazenamento offline.
+
+Oferecer interface acessível, intuitiva e moderna.
+
+5. Tipo de Aplicação
+
+O projeto é um Aplicativo Nativo Android, desenvolvido com:
+
+Kotlin
+
+Jetpack Compose
+
+Room Database
+
+Navigation Compose
+
+6. Instruções de Instalação e Uso
+1. Clonar o Repositório
+git clone https://github.com/moises079rib/Monitoramento.git
+
+2. Abrir o Projeto
+
+Abra o Android Studio.
+
+Vá em File > Open.
+
+Selecione a pasta do projeto.
+
+Aguarde a sincronização do Gradle.
+
+3. Executar o Aplicativo
+
+Utilize um emulador Android ou dispositivo físico.
+
+Clique em Run no Android Studio.
+
+4. Uso Básico
+
+Crie uma conta na tela de cadastro.
+
+Faça login.
+
+Registre novos dados (batimentos, peso ou glicemia).
+
+Consulte o histórico de medições armazenadas localmente.
+
+7. Requisitos do Sistema
+Sistema Operacional
+
+Android 7.0 (API 24) ou superior.
+
+Ferramentas Necessárias
+
+Android Studio Hedgehog ou Otter.
+
+JDK compatível com a versão do Android Studio.
+
+Dependências Principais
+
+Kotlin
+
+Jetpack Compose
+
+Room Database
+
+Navigation Compose
