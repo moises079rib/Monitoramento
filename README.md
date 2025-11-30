@@ -13,5 +13,3 @@
 6. **Instruções de Instalação e Uso:** Fornece um passo a passo completo explicando como clonar o repositório, abrir o projeto no Android Studio e executar o aplicativo em um dispositivo físico ou emulador.
 
 7. **Requisitos do Sistema:** Lista os requisitos mínimos para funcionamento do aplicativo, como Android 7.0 (API 24) ou superior, além das dependências essenciais utilizadas no projeto (Room, Navigation Compose, etc.).
-
-Essa estrutura garante clareza, organização e conformidade com as orientações da disciplina, facilitando o entendimento e a execução do aplicativo por outros usuários.
